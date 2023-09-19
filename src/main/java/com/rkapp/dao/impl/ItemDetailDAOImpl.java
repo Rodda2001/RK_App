@@ -1,4 +1,8 @@
 package com.rkapp.dao.impl;
 
-public class ItemDetailDAOImpl {
+import com.rkapp.dao.ItemDetailDAO;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class ItemDetailDAOImpl implements ItemDetailDAO {
 }
